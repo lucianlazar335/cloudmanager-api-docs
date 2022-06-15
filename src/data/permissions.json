@@ -210,5 +210,12 @@
         "method": "GET",
         "path":"/api/program/{programId}/environment/{environmentId}/logs/download"
 
+    },
+    {
+        "operation": "restoreExecution",
+        "profiles" : "Deployment Manager",
+        "method": "PUT",
+        "path":"/api/program/{programId}/environment/{environmentId}/restoreExecution"
+
     }
 ]
